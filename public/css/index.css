@@ -1,0 +1,92 @@
+body{
+	background-color: #333333 ;
+	color: white;
+	margin-bottom: 35px;
+}
+h2{
+	font-size: 55px ;
+	color: #5FBAAC;
+
+}
+i{
+	margin-top: 15px;
+}
+
+
+
+.instructions{
+	margin-top: 25px;
+	font-size: 21px;
+}
+.fa-3{
+	font-size: 5em ;
+	margin-left: 0.5em;
+}
+.first{
+	margin-top: 50px;
+
+}
+.second{
+	margin-top: 30px;
+}
+.form-group{
+	padding-left: 0px;
+}
+.form-control{
+	background-color: #333333;
+	color: #5FBAAC;
+	border: 1px solid #5FBAAC;
+	text-align: center;
+	width: 100% !important;
+}
+.my-btn{
+	background-color: #333333;
+	color: #5FBAAC;
+	border: 1px solid #5FBAAC;
+
+}
+.my-btn:focus, .my-btn:hover{
+	border-color: #66afe9;
+	color: #5FBAAC;
+}
+
+.footer{
+   position: fixed;
+   bottom: 0px;
+    width: 100%;
+    background-color: #232323 ;
+}
+.footer p{
+
+	margin-top: 12px;
+}
+
+.list-places{
+
+}
+
+.list-group{
+
+	margin-top: 4em;
+}
+.list-group-item{
+	background-color: #333333;	
+	border: 0px;
+	border-top: 1px solid #5FBAAC;
+	border-bottom: 1px solid #5FBAAC;
+}
+.list-group-item:hover{
+	background-color: #232323;
+
+}
+.text-left{
+	margin-left: 20px;
+
+}
+button p{
+	display:inline;
+}
+.going-btn{
+	margin-top: 65px;
+	margin-right: -16em;
+}

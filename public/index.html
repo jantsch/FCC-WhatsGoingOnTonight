@@ -3,37 +3,65 @@
 <html>
 
 	<head>
-		<title>Clementine.js - The elegant and lightweight full stack JavaScript boilerplate.</title>
+		<title>Plans tonight?</title>
+
+
+		<link rel="stylesheet" href="public/libraries/font-awesome-4.7.0/css/font-awesome.min.css">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<link href="/public/css/index.css" rel="stylesheet" type="text/css">
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="controllers/indexController.client.js"></script>
+
 		
-		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
 	</head>
 
-	<header>
-		<p>Welcome, <span id="display-name"></span>!</p>
-		<a class="menu" href="/profile">Profile</a>
-		<p>|</p>
-		<a class="menu" href="/logout">Logout</a>
-	</header>
-
 	<body>
-		<div class="container">
-			<img src="/public/img/clementine_150.png" />
-			<br />
-			<p class="clementine-text">Clementine.js</p>
-		</div>
-	
-		<div class="container">
-			<p>You have clicked the button <span id="click-nbr"></span> times.</p>
-			<br />
-			<div class="btn-container">
-				<button type="submit" class="btn btn-add">CLICK ME!</button>
-				<button class="btn btn-delete">RESET</button>
+		<div class="container text-center">
+			<div class="row first">
+				<h2>Plans Tonight?</h2>
+				<i class="fa fa-map-marker fa-3" aria-hidden="true"></i>
+				<i class="fa fa-taxi fa-3" aria-hidden="true"></i>
+				<i class="fa fa-beer fa-3" aria-hidden="true"></i>
+				<div class="instructions">
+					<p> See which bars are hoppin' tonight and RSVP ahead of time!</p>
+					<p> Remember: take a cab and drink responsibly. </p>
+				</div>
 			</div>
+			<div class="row second">
+				<form class="form-inline">
+					<div class="form-group col-xs-10">
+						<input class="form-control" id="location" placeholder="Where you at?">
+					</div>
+					<button type="submit" id="submit-form" class="btn col-xs-2 my-btn">GO!</button>
+				</form>
+			</div>
+
+			
+				<ul class="list-group" >
+				 
+				</ul>
+
+
+			
+
+			
 		</div>
+		<footer class="footer text-center" ><p>Made by Rodrigo Jantsch</p></footer>
 		
-		<script type="text/javascript" src="common/ajax-functions.js"></script>
-		<script type="text/javascript" src="controllers/clickController.client.js"></script>
-		<script type="text/javascript" src="controllers/userController.client.js"></script>
+		
+
+		
 	</body>
 
 </html>
