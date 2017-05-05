@@ -10,7 +10,7 @@ var Places = new Schema({
 			id_user: String
 		}
 	],
-	attendance_number: Number
+	attendance_number: {type:Number, default: 0}
 });
 
 module.exports = mongoose.model('Places', Places);

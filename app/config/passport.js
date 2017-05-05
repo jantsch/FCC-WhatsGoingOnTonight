@@ -41,7 +41,7 @@ passport.use(new TwitterStrategy({
 							throw err;
 						}
 
-						return done(null, newUser);
+						return cb(null, newUser);
 					});
 				}
     });
